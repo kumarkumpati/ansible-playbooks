@@ -1,4 +1,8 @@
-ping .yml
+---
+- name: ping all hosts by playbook
+  hosts: all
+  tasks:
+    - action: ping
 
 
 
